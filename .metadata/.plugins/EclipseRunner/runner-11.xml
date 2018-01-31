@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+<category name="カテゴリーなし">
+<launchConfiguration bookmark="false" name="ChkLoadJdbc"/>
+<launchConfiguration bookmark="false" name="HelloWorld"/>
+<launchConfiguration bookmark="false" name="Human"/>
+<launchConfiguration bookmark="false" name="Iphone"/>
+<launchConfiguration bookmark="false" name="Main"/>
+<launchConfiguration bookmark="false" name="Test"/>
+<launchConfiguration bookmark="false" name="Test (1)"/>
+<launchConfiguration bookmark="false" name="login"/>
+<launchConfiguration bookmark="false" name="login (1)"/>
+<launchConfiguration bookmark="false" name="ローカル・ホスト での Tomcat8 (Java8)"/>
+<launchConfiguration bookmark="false" name="ローカル・ホスト の Tomcat8 (Java8)"/>
+<launchConfiguration bookmark="false" name="新規構成"/>
+</category>
+</runner>
