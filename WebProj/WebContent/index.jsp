@@ -8,13 +8,17 @@
 <title>INDEX</title>
 </head>
 <body>
-   <form action="HelloStrutsAction">
+   <s:form action="HelloStrutsAction">
 	<s:submit value="HelloStruts"/>
-   </form>
+   </s:form>
 
-   <form action="WelcomeAction">
+   <s:form action="WelcomeAction">
       <s:submit value="Welcome"/>
-   </form>
+   </s:form>
+
+   <s:form action="InquaryAction">
+      <s:submit value="問い合わせ"/>
+   </s:form>
 </body>
 
 </html>
