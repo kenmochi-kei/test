@@ -11417,3 +11417,58 @@ java.io.FileNotFoundException: C:\Users\internous\Desktop\workspace\workspace-ke
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-02-01 17:37:03.820
+!MESSAGE '/RemoteSystemsTempFiles' のメタデータを書き込みできませんでした。
+!STACK 0
+java.io.FileNotFoundException: C:\Users\internous\Desktop\workspace\workspace-kenmochi\test\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (指定されたパスが見つかりません。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-02-01 17:44:19.318
+!MESSAGE '/RemoteSystemsTempFiles' のメタデータを書き込みできませんでした。
+!STACK 0
+java.io.FileNotFoundException: C:\Users\internous\Desktop\workspace\workspace-kenmochi\test\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (指定されたパスが見つかりません。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.ide 4 4 2018-02-01 17:57:30.923
+!MESSAGE ワークスペースの保管の問題
+
+!ENTRY org.eclipse.ui.ide 4 1 2018-02-01 17:57:30.930
+!MESSAGE ワークベンチの状態を保管中に問題が発生しました。
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2018-02-01 17:57:30.930
+!MESSAGE '/RemoteSystemsTempFiles' のメタデータを書き込みできませんでした。
+!STACK 0
+java.io.FileNotFoundException: C:\Users\internous\Desktop\workspace\workspace-kenmochi\test\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers (指定されたパスが見つかりません。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1658)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1740)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1197)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2270)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:453)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
