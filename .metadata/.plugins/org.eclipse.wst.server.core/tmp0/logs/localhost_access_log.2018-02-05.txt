@@ -1,0 +1,15 @@
+127.0.0.1 - - [05/Feb/2018:15:38:52 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:15:39:01 +0900] "GET /WebProj2/ HTTP/1.1" 200 467
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:15:39:05 +0900] "POST /WebProj2/HelloStrutsAction.action;jsessionid=8E03C7D1191E9AB56BF46AE3F638DACF HTTP/1.1" 200 9436
+127.0.0.1 - - [05/Feb/2018:15:49:22 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:15:49:26 +0900] "GET /WebProj2/ HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:15:49:30 +0900] "POST /WebProj2/HelloStrutsAction.action HTTP/1.1" 200 9436
+127.0.0.1 - - [05/Feb/2018:16:05:39 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:16:05:44 +0900] "GET /WebProj2/ HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:16:05:51 +0900] "POST /WebProj2/HelloStrutsAction.action HTTP/1.1" 200 192
+127.0.0.1 - - [05/Feb/2018:17:19:49 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:17:19:57 +0900] "GET /WebProj2/ HTTP/1.1" 200 712
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:17:20:03 +0900] "POST /WebProj2/HelloStrutsAction.action HTTP/1.1" 200 192
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:17:20:14 +0900] "POST /WebProj2/WelcomeAction.action HTTP/1.1" 200 852
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:17:20:28 +0900] "POST /WebProj2/LoginAction.action HTTP/1.1" 200 146
+0:0:0:0:0:0:0:1 - - [05/Feb/2018:17:20:49 +0900] "POST /WebProj2/LoginAction.action HTTP/1.1" 200 146
