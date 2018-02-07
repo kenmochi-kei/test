@@ -6,6 +6,7 @@ public class LoginAction extends ActionSupport{
 	private String username;
 	private String password;
 
+
 	public String execute() {
 		return SUCCESS;
 	}
@@ -25,4 +26,5 @@ public class LoginAction extends ActionSupport{
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
 }
