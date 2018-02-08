@@ -2,4 +2,9 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 <fullyQualifiedTypeName name="com.internousdev.login.util.DBConnector"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
 </qualifiedTypeNameHistroy>
