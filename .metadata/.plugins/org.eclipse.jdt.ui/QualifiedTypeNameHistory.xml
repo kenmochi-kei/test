@@ -7,4 +7,5 @@
 <fullyQualifiedTypeName name="com.internousdev.webproj3.dto.HelloStrutsDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj3.dao.LoginDAO"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.util.DBConnector"/>
 </qualifiedTypeNameHistroy>
