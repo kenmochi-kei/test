@@ -1,0 +1,12 @@
+package com.internousdev.webproj4.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.internousdev.webproj4.dto.HelloStrutsDTO;
+
+public class HelloStrutsDAO {
+	List<HelloStrutsDTO> helloStrutsDTOList = new ArrayList<HelloStrutsDTO> ();
+
+
+}
