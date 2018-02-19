@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="com.internousdev.webproj3.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj3.dao.TestDAO"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
-<fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dao.InquiryCompleteDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dao.TestDAO"/>
@@ -15,8 +14,14 @@
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5.dto.HelloStrutsDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5.dao.HelloStrutsDAO"/>
-<fullyQualifiedTypeName name="com.internousdev.webproj5.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5.dao.LoginDAO"/>
-<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.util.DBConnector"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dao.InquiryCompleteDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dto.InquiryDTO"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.template.util.DBConnector"/>
+<fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
 </qualifiedTypeNameHistroy>

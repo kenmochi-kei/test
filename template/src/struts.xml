@@ -3,6 +3,7 @@
 <!DOCTYPE struts PUBLIC
 "-//Apache Software Foundation//DTO Struts Configuration 2.3//EN"
 "http://struts.apache.org/dtds/struts-2.3.dtd">
+
 <!-- Strutsの詳細設定 -->
 
 <struts>
@@ -23,7 +24,7 @@
    <result name="error">home.jsp</result>
    </action>"
 
-   <!-- UserCreateAction -->
+  <!-- UserCreateAction -->
    <action name="UserCreateAction" class="com.internousdev.template.action.UserCreateAction"
    method="execute">
    <result name="success">userCreate.jsp</result>
