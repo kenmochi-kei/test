@@ -1,11 +1,55 @@
-・「知っているようで知らないClassクラス（基本編)
+・「知っているようで知らないClassクラス（基本編)」
 
    https://qiita.com/SHOSI/items/ea713e6205257ab8617b
 
-・【3分で理解】JavaのMapで値を追加する方法(put) | 侍エンジニア塾
+・「【3分で理解】JavaのMapで値を追加する方法(put) | 侍エンジニア塾」
 
    https://www.sejuku.net/blog/16067
 
    Mapについて書かれている。
 
+・「Actionクラスが扱うメッセージの種類」
+
+  https://qiita.com/alpha_pz/items/5a2e44f7fcedd7b14ec2
+
+・「実装サンプルで学ぶStruts2-生まれ変わった定番フレームワークを徹底解説」
+　　「各種メッセージを外部ファイルで管理する方法」
+
+   https://news.mynavi.jp/article/20071003-s_struts2/11
+
+   ActionSupportクラスについて書かれている。
+
+・「Actionクラスに付与するインタフェースと機能」
+
+   https://qiita.com/alpha_pz/items/10bfcf2661c713fca38e
+
+   SessionAwareインタフェースについても書かれている。
+
+・「Struts2 Sessionを使う」
+
+   java-lang-programming.com/ja/articles/5
+
+   Sessionについて書かれている。
+
+・「Java技術によるWebアプリケーション開発入門３章：セッション管理とスコープ」
+
+   http://www.fujitsu.com/jp/group/fap/services/java-education/course/technology/web-apl/03-session/
+
+   セッション管理について書かれている。
+
+・「セッションに対応する」
+
+   http://kmaebashi.com/programmer/webserver/session.html
+
+   セッションの仕組みについて書かれている。
+
+・「Struts2 - タグ - データタグ - liguofeng29's blog」
+
+   http://javait.hatenablog.com/entry/2016/03/22/163902
+
+   Struts2のタグの種類
+
 ・
+
+
+
