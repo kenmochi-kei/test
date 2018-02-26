@@ -49,7 +49,10 @@
 
    Struts2のタグの種類
 
+・「Struts2：メモ＜propertyタグでHTMLを表示 | 3周遅れのマイニング記録」
+
+   http://www.yamagoya-life.com/blog/?p=244
+
+   struts2のpropertyたぐはデフォルトではHTMLタグをエスケープしている。といったことなど
+
 ・
-
-
-

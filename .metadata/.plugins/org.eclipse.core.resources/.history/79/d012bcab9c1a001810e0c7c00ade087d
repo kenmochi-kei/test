@@ -1,0 +1,8 @@
+package com.internousdev.template.action;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.internousdev.template.action
+	}
+}
+
