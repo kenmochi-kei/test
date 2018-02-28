@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="com.internousdev.template.action" key="selection"/>
+		<item value="LogoutAction" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="LogoutAction"/>
+			<item value="MyPageAction"/>
 			<item value="com.internousdev.template.action"/>
 			<item value="LoginAction"/>
 			<item value="BuyItemAction"/>
