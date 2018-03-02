@@ -1,0 +1,476 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+
+@import url(http://fonts.googleapis.com/css?family=Headland+One);
+
+@import
+	url(http://fonts.googleapis.com/css?family=Droid+Sans:bold+Lobster);
+
+
+
+
+caption{
+    color:white;
+
+}
+
+h1 {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	text-align: center;
+
+
+}
+
+body {
+
+    background-size: cover;
+    background-attachment:fixed;/*背景画像をスクロールさせない*/
+    background-image: url(../img/infoc.jpg);
+}
+
+p {
+    color:white;
+	font-weight: 200;
+	font-size: 1.3em
+}
+
+/* -------------- THE button -------------- */
+
+.button {
+	/* text */
+	text-decoration: none;
+	font: 24px/1em 'Droid Sans', sans-serif;
+	font-weight: bold;
+	text-shadow: rgba(255, 255, 255, .5) 0 1px 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	/* layout */
+	padding: .5em .6em .4em .6em;
+	margin: .5em;
+	display: inline-block;
+	position: relative;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* effects */
+	border-top: 1px solid rgba(255, 255, 255, 0.8);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	background-image: -webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255,
+		0)), to(rgba(255, 255, 255, 0.7))),
+		url(http://iwantaneff.in/t/http://iwantaneff.in/t/noise.png);
+	background-image: -moz-radial-gradient(top, ellipse cover, rgba(255, 255, 255, 0.7)
+		0%, rgba(255, 255, 255, 0) 100%),
+		url(http://iwantaneff.in/t/http://iwantaneff.in/t/noise.png);
+	background-image: gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255, 0)),
+		to(rgba(255, 255, 255, 0.7))),
+		url(http://iwantaneff.in/t/http://iwantaneff.in/t/noise.png);
+	-webkit-transition: background .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out;
+	transition: background .2s ease-in-out;
+	/* color */
+	color: hsl(0, 0%, 40%) !important;
+	background-color: hsl(0, 0%, 75%);
+	-webkit-box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+						 hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px,
+		/* color border */
+						 rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+	-moz-box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+						 hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px,
+		/* color border */
+						 rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+	box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+						 hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px,
+		/* color border */
+						 rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+}
+
+/* -------------- button (tag) -------------- */
+button.button {
+	border-left: none;
+	border-right: none;
+}
+
+button.button:hover {
+	cursor: pointer;
+}
+
+/* -------------- icon -------------- */
+.button:before {
+	font: 1.2em/0 'Pictos', sans-serif;
+	content: attr(data-icon);
+	/* gets the icon value from the custom data attribute and puts it infront of the button label */
+	margin-right: 0.4em;
+}
+/* icon only */
+.icon {
+	font-weight: normal;
+	font-style: normal;
+	text-indent: -999em;
+}
+
+.icon:before {
+	margin-right: 0;
+	display: block;
+	height: 0;
+	text-indent: 0px;
+}
+
+/* -------------- colours -------------- */
+.button.pink {
+	color: hsl(340, 100%, 30%) !important;
+	background-color: hsl(340, 100%, 75%);
+	-webkit-box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+							 hsl(340, 70%, 50%) 0 .1em 3px, hsl(340, 80%, 40%) 0 .3em 1px,
+		/* color border */
+							 rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+	-moz-box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+							 hsl(340, 70%, 50%) 0 .1em 3px, hsl(340, 80%, 40%) 0 .3em 1px,
+		/* color border */
+							 rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+	box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+							 hsl(340, 70%, 50%) 0 .1em 3px, hsl(340, 80%, 40%) 0 .3em 1px,
+		/* color border */
+							 rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+}
+
+.button.pink:hover {
+	background-color: hsl(340, 100%, 83%);
+}
+
+/* -------------- States -------------- */
+.button:hover {
+	background-color: hsl(0, 0%, 83%);
+}
+
+.button:active {
+	background-image: -webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255,
+		0)), to(rgba(255, 255, 255, 0))),
+		url(http://iwantaneff.in/t/noise.png);
+	background-image: -moz-gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255, 0)),
+		to(rgba(255, 255, 255, 0))), url(http://iwantaneff.in/t/noise.png);
+	background-image: gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255, 0)),
+		to(rgba(255, 255, 255, 0))), url(http://iwantaneff.in/t/noise.png);
+	-webkit-box-shadow: inset rgba(255, 255, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.2) 0 -0.1em .3em, /* inner shadow */
+							 rgba(0, 0, 0, 0.4) 0 .1em 1px, /* border */
+							 rgba(0, 0, 0, 0.2) 0 .2em 6px; /* drop shadow */
+	-moz-box-shadow: inset rgba(255, 255, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.2) 0 -0.1em .3em, /* inner shadow */
+							 rgba(0, 0, 0, 0.4) 0 .1em 1px, /* border */
+							 rgba(0, 0, 0, 0.2) 0 .2em 6px; /* drop shadow */
+	box-shadow: inset rgba(255, 255, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.2) 0 -0.1em .3em, /* inner shadow */
+							 rgba(0, 0, 0, 0.4) 0 .1em 1px, /* border */
+							 rgba(0, 0, 0, 0.2) 0 .2em 6px; /* drop shadow */
+	-webkit-transform: translateY(.2em);
+	-moz-transform: translateY(.2em);
+	transform: translateY(.2em);
+}
+
+.button:focus {
+	outline: none;
+	color: rgba(254, 255, 255, 0.9) !important;
+	text-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+
+/* -------------- Fonts -------------- */
+.serif {
+	font-family: 'Lobster', serif;
+	font-weight: normal;
+}
+
+/* -------------- Sizes -------------- */
+.xs {
+	font-size: 16px;
+}
+
+.xl {
+	font-size: 32px;
+}
+
+/* -------------- Materials -------------- */
+.button.glossy:after, .button.glass:after {
+	content: "";
+	position: absolute;
+	width: 90%;
+	height: 60%;
+	top: 0;
+	left: 5%;
+	-webkit-border-radius: .5em .5em 1em 1em/.5em .5em 2em 2em;
+	-moz-border-radius: .5em .5em 1em 1em/.5em .5em 2em 2em;
+	border-radius: .5em .5em 1em 1em/.5em .5em 2em 2em;
+	background-image: -webkit-gradient(linear, 0% 0, 100% 0, from(rgba(255, 255, 255, .55)),
+		to(rgba(255, 255, 255, .5)), color-stop(.5, rgba(255, 255, 255, 0)),
+		color-stop(.8, rgba(255, 255, 255, 0)));
+	background-image: -moz-linear-gradient(left, rgba(255, 255, 255, .55),
+		rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 80%,
+		rgba(255, 255, 255, .5));
+	background-image: gradient(linear, 0% 0, 100% 0, from(rgba(255, 255, 255, .55)),
+		to(rgba(255, 255, 255, .5)), color-stop(.5, rgba(255, 255, 255, 0)),
+		color-stop(.8, rgba(255, 255, 255, 0)));
+}
+
+.button
+
+
+
+
+.glass
+
+
+
+
+:active
+
+
+
+
+:after
+,
+{
+opacity
+
+
+
+
+:
+
+
+
+
+
+.6
+
+
+
+
+;
+}
+.button.icon.glass:after {
+	height: 75%;
+}
+
+/* -------------- Glass + Transparent -------------- */
+.button.glass {
+	text-shadow: rgba(255, 255, 255, .5) 0 -1px 0, rgba(0, 0, 0, 0.18) 0
+		.18em .15em;
+}
+
+.button.glass:active {
+	text-shadow: rgba(255, 255, 255, .3) 0 1px 0, rgba(0, 0, 0, 0.15) 0
+		.18em .15em;
+}
+
+/* -------------- Shapes -------------- */
+
+/* round */
+.round, .round.glossy:after, .round.glass:after {
+	border-top: none;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+}
+
+/* oval */
+.oval {
+	border-top: none;
+	padding-left: .8em;
+	padding-right: .8em;
+	-webkit-border-radius: 5em/2em;
+	-moz-border-radius: 5em/2em;
+	border-radius: 5em/2em;
+}
+
+.oval.glossy:after, .oval.glass:after {
+	top: 5%;
+	-webkit-border-radius: 5em/2em 2em 1em 1em;
+	-moz-border-radius: 5em/2em 2em 1em 1em;
+	border-radius: 5em/2em 2em 1em 1em;
+}
+
+.oval.icon {
+	padding-left: .8em;
+	padding-right: .8em;
+	-webkit-border-radius: 1.5em/1em;
+	-moz-border-radius: 1.5em/1em;
+	border-radius: 1.5em/1em;
+}
+
+.oval.icon.glossy:after, .oval.icon.glass:after {
+	-webkit-border-radius: 1.5em/1em;
+	-moz-border-radius: 1.5em/1em;
+	border-radius: 1.5em/1em;
+}
+
+
+/* brackets */
+.brackets, .brackets.glossy:after, .brackets.glass:after {
+	border-top: none;
+	-webkit-border-radius: .5em/1em;
+	-moz-border-radius: .5em/1em;
+	border-radius: .5em/1em;
+}
+
+/* back */
+.back, .back.glossy:after, .back.glass:after {
+	border-top-color: rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 1.6em 1.6em 1em 1em/4em 4em 1em 1em;
+	-moz-border-radius: 1.6em 1.6em 1em 1em/4em 4em 1em 1em;
+	border-radius: 1.6em 1.6em 1em 1em/4em 4em 1em 1em;
+}
+
+.back.glossy:after, .back.glass:after {
+	left: 6%;
+	width: 88%;
+}
+
+/* -------------- Table Design -------------- */
+.table {
+
+    color:white;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 63%;
+	border-spacing: 50px 30px;
+	border-style: none；
+}
+
+.item {
+	background-color: black;
+	color: white;
+	width: 27%
+}
+
+
+caption {
+    color:#ffffff;
+	font-size: 2em;
+	margin-bottom: 20px;
+	font-family: 'Lobster', serif;
+	color: black
+}
+
+/* -------------- Footer&Copylight design  -------------- */
+hr {
+	border: 1px;
+	height: 2px;
+
+}
+
+.contents  {margin-top:20px;
+            margin-bottom:10%;
+            text-align:center}
+
+
+
+hr .foot {
+	margin-top: 100%
+}
+
+.copy {
+	text-align: center;
+}
+
+/* -------------- selectbox design  -------------- */
+
+
+.easy-select-box {
+	background: #fffdf4;
+	border: 2px solid #d2ba85;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-align: left;
+	font-size: 20px;
+	color: #0c2245;
+}
+
+.easy-select-box .esb-displayer {
+
+	color: #0c2245;
+	cursor: default;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 3px;
+	text-indent: 5px;
+	width: 195px;
+}
+
+.easy-select-box .esb-displayer:hover {
+	filter: alpha(opacity = 80);
+	-ms-filter: 'alpha(opacity=80)';
+	opacity: .8;
+}
+
+.easy-select-box:hover .esb-displayer {
+	text-decoration: none;
+}
+
+.easy-select-box.disabled .esb-displayer, .easy-select-box:hover.disabled .esb-displayer
+	{
+	background-position: 0 -36px;
+}
+
+.easy-select-box .esb-dropdown {
+	background: #fff;
+	border: 1px solid #ccc;
+	display: none;
+	max-height: 200px;
+	overflow: auto;
+	position: absolute;
+	z-index: 999;
+	width: 200px;
+}
+
+.easy-select-box  .esb-item {
+	padding: 3px;
+	background: #fffdf4;
+	color: #0c2245;
+	cursor: default;
+}
+
+.easy-select-box .esb-item:hover {
+	background: #d2ba85;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+h2 {
+
+}
+
+h2 {
+    color:white;
+}
+
+
+
+.h1Border {
+
+    border: 1px solid #ffffff;
+    padding-bottom:30px;
+    width:300px;
+    height:100px;
+
+}
+#datepicker{
+	width:30px;
+	margin-left:50px;
+	margin-right:50px;
+}
+.pbody {
+    height:300px;
+    margin-top: 100;
+    margin-bottom: auto;
+}

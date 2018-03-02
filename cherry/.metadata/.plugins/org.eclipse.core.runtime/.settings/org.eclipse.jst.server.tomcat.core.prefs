@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+<<<<<<< HEAD
+locationorg.eclipse.jst.server.tomcat.runtime.60=C:/pleiades/tomcat/6
+locationorg.eclipse.jst.server.tomcat.runtime.70=C:/pleiades/tomcat/7
+locationorg.eclipse.jst.server.tomcat.runtime.80=C:/pleiades/tomcat/8
+=======
+locationorg.eclipse.jst.server.tomcat.runtime.60=C:/pleiades/pleiades/tomcat/6
+locationorg.eclipse.jst.server.tomcat.runtime.70=C:/pleiades/pleiades/tomcat/7
+locationorg.eclipse.jst.server.tomcat.runtime.80=C:/pleiades/pleiades/tomcat/8
+>>>>>>> 12c5a4361e2c10838d45d7e1c9c43a730cd219ed

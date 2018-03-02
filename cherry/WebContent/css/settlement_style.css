@@ -1,0 +1,211 @@
+@CHARSET "UTF-8";
+/*------------------------------------------------------
+				↓共通↓
+--------------------------------------------------------*/
+
+/* クリア */
+.clearfix_kudo:after {
+  display: block;
+  clear: both;
+}
+
+html {
+  height: 100%;
+  position: relative;
+}
+
+img{
+	width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+body{
+	height: 100%;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------
+ * トップメッセージ
+ * -------------------------------------------------------------------------------------------------------------------*/
+.title{
+	text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.message{
+	text-align: center;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.border{
+	border-top: solid 1px;
+	border-color: #F48FB1;
+	padding: 1px;
+    line-height: 24px;
+}
+
+.pro_img{
+    width: 24%;
+   height: 200px;
+   text-align: center;
+	margin: 10px 0 10px auto;
+    float: left;
+}
+.pro_img a:hover{
+	opacity: 0.5;
+
+}
+
+.pro_text{
+
+	float: left;
+	position: relative;
+	width: 72%;
+	margin-left: 20px;
+}
+
+.name{
+	line-height: 1.5;
+}
+.kana{
+	padding-left: 76px;
+    font-size: 14px;
+}
+
+.pro_name{
+	font-size: 20px;
+}
+.name :hover{
+	color: #E47911;
+    text-decoration: underline;
+}
+
+.price_count{
+	line-height: 1.5;
+	margin: 20px auto 20px auto;
+}
+.price{
+	color: #E91E63;
+	font-size: 1.4rem;
+}
+
+.count{
+	font-size: 15px;
+}
+
+.main{
+	width: 1000px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: 50px;
+}
+
+/* .top{
+	font-size: 30px;
+} */
+
+
+/*----------------------------------------------------------------------------------------------------------------------
+ * 宛先情報
+ * -------------------------------------------------------------------------------------------------------------------*/
+.main .box{
+	width:900px;
+	height:200px;
+	margin:0 auto;
+}
+
+.destination_title{
+	width:200px;
+	height:30px;
+	padding-left: 50px;
+}
+
+.main .destination_box{
+	width: 700px;
+	padding: 25px 25px 30px;
+	border: 2px solid #F48FB1;
+	box-sizing: border-box;
+	margin:0 auto;
+}
+
+.main .box_2{
+	width:500px;
+	height:50px;
+	margin:0 auto;
+}
+
+.btn_1 input{
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin-right: 100px;
+	background: #fff;
+	border: 2px solid #2d2d2d;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	border-radius: 2px;
+	color: #000 !important;
+	box-shadow: none;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	cursor:pointer;
+}
+
+.btn_2 button{
+	float:left;
+	width: 200px;
+	height: 50px;
+	border: none;
+	background-color: #2c2c2c;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	border-radius: 2px;
+	box-shadow: none;
+	font-weight: bold;
+	color: #FFF;
+	background: #F48FB1;
+	text-align: center;
+	display: inline-block;
+	cursor:pointer;
+	transition; .4s;
+}
+
+
+.btn_2 button:hover {
+    background: #ec407ac4;
+    width:210px;
+    margin-left:-10px;
+    letter-spacing: 1px;
+    font-size:17px;
+}
+
+.main .totalprice{
+	margin-top: 30px;
+	text-align: center;
+	margin: 20px;
+	font-size: 1.4rem;
+	color: #E91E63;
+}
+
+.back{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

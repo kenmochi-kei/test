@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.ui.theme" value="simple" />
+
+	<package name="com.internousdev.cherry.action" extends="struts-default">
+		<!-- 本間担当アクション -->
+		<action name="PurchaseHistoryAction" class="com.internousdev.cherry.action.PurchaseHistoryAction" method="execute">
+			<result name="success">purchaseHistory.jsp</result>
+			<result name="error">login.jsp</result>
+		</action>
+
+		<!-- 落合担当アクションMyPageAction -->
+		<action name="MyPageAction" class="com.internousdev.cherry.action.MyPageAction" method="execute">
+			<result name="success">mypage.jsp</result>
+			<result name="error">login.jsp</result>
+		</action>
+
+
+		<!-- 櫻井担当アクション -->
+		<action name="SearchAction" class="com.internousdev.cherry.action.SearchAction" method="execute">
+			<result name="success">searchResult.jsp</result>
+		</action>
+
+
+
+		<!-- 工藤担当アクション -->
+		<action name="GoCartAction" class="com.internousdev.cherry.action.GoCartAction" method="execute">
+			<result name="success">cart.jsp</result>
+		</action>
+		<action name="PutProductIntoCartAction" class="com.internousdev.cherry.action.PutProductIntoCartAction" method="execute">
+			<result name="success">cart.jsp</result>
+			<result name="error">cart.jsp</result>
+			<result name="CountError">home.jsp</result>
+		</action>
+		<action name="PurchaseInfoAction" class="com.internousdev.cherry.action.PurchaseInfoAction" method="execute">
+			<result name="success">settlement.jsp</result>
+			<result name="error">login.jsp</result>
+			<result name="other">cart.jsp</result>
+			<result name="DESTINATION">destinationRegister.jsp</result>
+		</action>
+		<action name="CartDeleteAction" class="com.internousdev.cherry.action.CartDeleteAction" method="execute">
+		     <result name="success">cart.jsp</result>
+		</action>
+ 		<action name="GoDestinationRegisterAction" class="com.internousdev.cherry.action.GoDestinationRegisterAction" method="execute">
+			<result name="success">destinationRegister.jsp</result>
+		</action>
+		<action name="DestinationRegisterConfirmAction" class="com.internousdev.cherry.action.DestinationRegisterConfirmAction" method="execute">
+			<result name="success">destinationRegisterConfirm.jsp</result>
+			<result name="error">destinationRegister.jsp</result>
+			<result name="login">login.jsp</result>
+		</action>
+		<action name="DestinationRegisterCompleteAction" class="com.internousdev.cherry.action.DestinationRegisterCompleteAction" method="execute">
+			<result name="success">destinationRegisterComplete.jsp</result>
+			<result name="error">home.jsp</result>
+		</action>
+
+		<!-- 落合担当アクションPurchaseCompletionAction -->
+		<action name="PurchaseCompleteAction"
+		class="com.internousdev.cherry.action.PurchaseCompleteAction" method="execute">
+			<result name="success">purchaseComplete.jsp</result>
+			<result name="other">cart.jsp</result>
+			<result name="error">cart.jsp</result>
+		</action>
+
+		<!-- 松田アクション -->
+		<action name="ProDetailAction" class="com.internousdev.cherry.action.ProDetailAction">
+			<result name="success">pro_detail.jsp</result>
+			<result name="error">pro_detail.jsp</result>
+		</action>
+
+		<action name="TopAction" class="com.internousdev.cherry.action.TopAction">
+			<result name="success">home.jsp</result>
+		</action>
+
+		<action name="LogoutAction" class="com.internousdev.cherry.action.LogoutAction">
+			<result name="success">logout_result.jsp</result>
+		</action>
+
+
+
+		<!-- 佐藤アクション -->
+		<action name="ResetPasswordAction" class="com.internousdev.cherry.action.ResetPasswordAction" method="execute">
+			<result name="success">resetPassword.jsp</result>
+		</action>
+		<action name="ResetPasswordConfirmAction" class="com.internousdev.cherry.action.ResetPasswordConfirmAction" method="execute">
+			<result name="success">resetPasswordConfirm.jsp</result>
+			<result name="error">resetPassword.jsp</result>
+		</action>
+		<action name="ResetPasswordCompleteAction" class="com.internousdev.cherry.action.ResetPasswordCompleteAction" method="execute">
+			<result name="success">resetPasswordComplete.jsp</result>
+		</action>
+
+		<!-- 小内アクション -->
+		<action name="LoginAction" class="com.internousdev.cherry.action.LoginAction" method="execute">
+			<result name="success">home.jsp</result>
+			<result name="error">login.jsp</result>
+			<result name="login">home.jsp</result>
+			<result name="kessai">settlement.jsp</result>
+			<result name="destination">destinationRegister.jsp</result>
+		</action>
+		<action name="UserCreateAction" class="com.internousdev.cherry.action.UserCreateAction" method="execute">
+			<result name="success">userRegister.jsp</result>
+		</action>
+		<action name="GoUserRegisterAction" class="com.internousdev.cherry.action.GoUserRegisterAction" method="execute">
+			<result name="success">userRegister.jsp</result>
+		</action>
+		<action name="CheckUserInfoAction" class="com.internousdev.cherry.action.CheckUserInfoAction" method="execute">
+			<result name="success">userRegisterConfirm.jsp</result>
+			<result name="error">userRegister.jsp</result>
+		</action>
+		<action name="RegisterUserInfoAction" class="com.internousdev.cherry.action.RegisterUserInfoAction" method="execute">
+			<result name="success">userRegisterCompletion.jsp</result>
+		</action>
+		<action name="GoHomeAction" class="com.internousdev.cherry.action.GoHomeAction" method="execute">
+			<result name="success">home.jsp</result>
+		</action>
+		<action name="GoLoginAction" class="com.internousdev.cherry.action.GoLoginAction" method="execute">
+			<result name="success">home.jsp</result>
+			<result name="error">login.jsp</result>
+		</action>
+
+
+	</package>
+</struts>

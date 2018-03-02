@@ -1,0 +1,230 @@
+@CHARSET "UTF-8";
+/*------------------------------------------------------
+				↓共通↓
+--------------------------------------------------------*/
+
+/* クリア */
+.clearfix_hon:after {
+  display: block;
+  clear: both;
+}
+html {
+  height: 100%;
+  position: relative;
+}
+
+
+
+img{
+	width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+body{
+	height: 48%;
+}
+
+
+/*------------------------------------------------------
+				↓トップメッセージ↓
+--------------------------------------------------------*/
+.title{
+	text-align: center;
+    font-size: 2rem;
+    margin: 17px 0px 0px;
+}
+
+.message{
+	text-align: center;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*------------------------------------------------------
+
+				カート内容
+
+--------------------------------------------------------*/
+.main_content {
+    width: 95%;
+	min-height: 220px;
+    margin: 5px auto;
+
+}
+
+.pro_img{
+	margin: 10px 0 10px auto;
+    float: left;
+}
+
+.delete{
+	/* float: right; */
+
+	width: 50px;
+    position: absolute;
+    top: 80%;
+    right: -3px;
+}
+.delete a:hover{
+	color: #E47911;
+    text-decoration: underline;
+}
+
+
+
+/*------------------------------------------------------------------------------------------
+			移植
+-----------------------------------------------------------------------------------------------*/
+
+.main{
+	width: 1000px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: 43px;
+}
+
+.top{
+	font-size: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+/*トップにもどるやつ,
+                入れるなら残す*/
+#pageTop{
+    text-align: center;
+    color: #111;
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 13px;
+}
+#pageTop a:hover{
+	color: #F48FB1;
+	transition: 0.4s;
+}
+/*----------------移植CSS--------------------------------------*/
+/*---------------------------------
+           削除ボタン！
+----------------------------------*/
+
+/*---------------------------------
+           メイン
+----------------------------------*/
+
+
+.border{
+	border-top: solid 1px;
+	border-color: #F48FB1;
+	padding: 1px;
+    line-height: 24px;
+}
+/*---------------------------------
+            画像
+----------------------------------*/
+.pro_img{
+   width: 24%;
+   height: 200px;
+   text-align: center;
+	margin: 10px 0 10px auto;
+    float: left;
+}
+.pro_img a:hover{
+	opacity: 0.5;
+
+}
+
+/*---------------------------------
+          真ん中のて木すと！！
+----------------------------------*/
+.pro_text{
+
+	float: left;
+	position: relative;
+	width: 72%;
+	margin-left: 20px;
+}
+/*---------------------------------
+            名前
+----------------------------------*/
+.name{
+	line-height: 1.5;
+}
+.kana{
+	padding-left: 76px;
+    font-size: 14px;
+}
+
+.pro_name{
+	font-size: 20px;
+}
+.name :hover{
+	color: #E47911;
+    text-decoration: underline;
+}
+
+/*---------------------------------
+            値段と個数
+----------------------------------*/
+.price_count{
+	line-height: 1.5;
+	margin: 20px auto 20px auto;
+}
+.price{
+	color: #E91E63;
+	font-size: 1.4rem;
+}
+
+.count{
+	font-size: 15px;
+}
+/*---------------------------------
+            会社
+----------------------------------*/
+.comp_info{
+	line-height: 1.5;
+}
+.company{
+
+}
+
+.release_date{
+
+}
+/*---------------------------------
+            削除リンク！
+----------------------------------*/
+
+/*----------------移植CSSここまで--------------------------------------*/
+
+
+/*------------------------------------------------------
+		合計金額とリンク
+--------------------------------------------------------*/
+.totalprice{
+	margin-top: 30px;
+	text-align: center;
+	margin: 20px;
+	font-size: 1.4rem;
+	color: #E91E63;
+}
+
+.settlement_btn{
+	margin-top: 30px;
+	text-align: center;
+	margin: 20px;
+}
+.settlement_btn a:hover{
+	color: #E47911;
+    text-decoration: underline;
+}
+

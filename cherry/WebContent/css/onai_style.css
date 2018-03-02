@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+/* クリア */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+
+/*-------------------------------------
+	main
+-------------------------------------*/
+
+.main{
+	width: 100%;
+	height: 1500px;
+    vertical-align:-50%;
+
+}
+
+.title{
+	width: 505px;
+	margin: auto;
+	font-size: 20px;
+	padding: 0.25em 0.5em;
+	background: transparent;
+	border-left: solid 10px #f48fb1;
+}
+.error{
+	font-weight:bold;
+}
+
+/*----- main フォーム -----*/
+
+.member_form{
+	width:450px;
+	padding:35px 45px 45px 45px;
+	margin:auto;
+	background: #f48fb12b;
+	border-radius: 5px;
+}
+.member_form_title{
+    padding-left: 12px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.member_form p{
+	font-size:14px;
+	padding-left:10px;
+	padding-top: 4px;
+}
+.member_form a{
+	color: #ec407ac9;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 175px;
+}
+.member_form_radio{
+	margin: 14px;
+}
+.member_form_radio userRegister_sex1{
+	margin-left: 46px;
+}
+.member h5{
+	font-weight:bold;
+}
+
+input#LoginForm_userId,input#LoginForm_password,input#userRegister_familyName,input#userRegister_firstName,input#userRegister_familyNameKana,input#userRegister_firstNameKana,input#userRegister_userId,input#userRegister_password,input#userRegister_email,
+input#DestinationRegisterConfirmAction_familyName,input#DestinationRegisterConfirmAction_firstName,input#DestinationRegisterConfirmAction_familyNameKana,input#DestinationRegisterConfirmAction_firstNameKana,input#DestinationRegisterConfirmAction_telNumber,input#DestinationRegisterConfirmAction_userAddress,input#DestinationRegisterConfirmAction_email{
+	width: 400px;
+    margin: 9px;
+    border: none;
+    padding: 16px;
+    max-width: 400px;
+    background: #FFF;
+    border-radius: 3px;
+    box-shadow: 0 0px 20px #f8bbd0a1;
+    height: 0;
+}
+.hissu{
+	font-size: 11px;
+    background-color:#ff0000b8;
+    width: 30px;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 4px;
+    color: white;
+    border-radius: 4px;
+    height: 10px;
+    margin-left: 14px;
+}
+.kozin{
+	background-color:white;
+	margin-left:10px;
+    border-radius: 3px;
+    box-shadow: 0 0px 10px #f8bbd0a1;
+}
+
+/*----- main サブ -----*/
+
+.nomember{
+	width:340px;
+	margin:auto;
+	font-size:16px;
+	letter-spacing: 1px;
+}
+.nomember p{
+	text-align:center;
+}
+
+
+
+/*-------------------------------------
+	button
+-------------------------------------*/
+
+.member_btn button{
+	border: none;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 10px 10px 10px;
+    text-decoration: none;
+    color: #FFF;
+    background: #f48fb1d4;;
+    transition: .4s;
+    width: 433px;
+    height: 36px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.member_btn button>span{
+	border-bottom: solid 2px #FFF;
+}
+.member_btn button:hover {
+    background: #ec407ac4;
+    letter-spacing: 2px;
+}
+
+
+.nomember_btn {
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+	padding: 14px 30px;
+	min-width: 120px;
+	max-width: 100%;
+	font-size: 15px;
+	background: #f8bbd08a;
+	border-radius: 4px;
+	margin-left:20px;
+}
+.nomember_btn:before{
+	content: "";
+	position: absolute;
+	top: -30px;
+	left:10px;
+	border: 15px solid transparent;
+	border-bottom: 15px solid #f8bbd08a;
+}
+.nomember_btn a {
+	margin: 0;
+	padding: 0;
+	color: #1f1f1fa6;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+
+/*-------------------------------------
+	animation
+-------------------------------------*/
+
+.heart {
+	font-size: 80px;
+	color: #f8bbd0;
+  margin: 60px 0 0
+}
+.heart:hover {
+  -webkit-animation: heart-anim 1s linear .3s;
+  animation: heart-anim 1s linear .3s;
+}
+
+/* Animation setting */
+@-webkit-keyframes heart-anim {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(50);
+  }
+}
+@keyframes heart-anim {
+  to {
+    opacity: 0;
+    transform: scale(50);
+  }
+}

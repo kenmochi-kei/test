@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+contextsDir=C:/pleiades/tomcat/8/conf/Catalina/localhost
+eclipse.preferences.version=1
+tomcatConfigFile=C:/pleiades/tomcat/8/conf/server.xml
+tomcatDir=C:/pleiades/tomcat/8
+=======
+contextsDir=C:/pleiades/pleiades/tomcat/8/conf/Catalina/localhost
+eclipse.preferences.version=1
+tomcatConfigFile=C:/pleiades/pleiades/tomcat/8/conf/server.xml
+tomcatDir=C:/pleiades/pleiades/tomcat/8
+>>>>>>> 12c5a4361e2c10838d45d7e1c9c43a730cd219ed
+tomcatVersion=tomcatV8

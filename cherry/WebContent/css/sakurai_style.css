@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#open,close{
+	curcur:pointer;
+	width:200px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 40px;
+	margin: 15px auto 0;
+
+}
+
+
+#mask{
+	background: rgba()
+}

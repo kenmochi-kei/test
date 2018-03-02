@@ -1,0 +1,1209 @@
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
+
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+@import
+	url(http://fonts.googleapis.com/css?family=Alex+Brush|Berkshire+Swash|Quando)
+	;
+@font-face {
+    font-family: "LigatureSymbols";
+    src: url("../font/LigatureSymbols-2.11.eot");
+    src: url("../font/LigatureSymbols-2.11.eot?#iefix") format("embedded-opentype"),
+        url("../font/LigatureSymbols-2.11.woff") format("woff"),
+        url("../font/LigatureSymbols-2.11.ttf") format("truetype"),
+        url("../font/LigatureSymbols-2.11.svg#LigatureSymbols") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+button.button4 {
+
+
+    /* 文字サイズを1.4emに指定 */
+
+    font-size: 1.4em;
+
+
+
+
+
+
+
+    /* 縦方向に10px、
+
+    * 横方向に30pxの余白を指定 */
+
+    padding: 10px 30px;
+
+
+
+    /* 背景色を濃い青色に指定 */
+
+    background-color: rgb(106, 12, 59);
+
+
+
+    /* 文字色を白色に指定 */
+
+    color: #fff;
+
+
+
+    /* ボーダーをなくす */
+
+    border-style: none;
+
+}
+
+
+
+button.button4:hover {
+
+    /* 背景色を明るい青色に指定 */
+
+    background-color: rgb(150, 17, 84);
+
+
+
+    /* 文字色を白色に指定 */
+
+    color: #fff;
+
+}
+
+
+
+
+.icon-font {
+    font-family: "LigatureSymbols";
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -webkit-font-feature-settings: "liga"1, "dlig"1;
+    -moz-font-feature-settings: "liga=1, dlig=1";
+    -ms-font-feature-settings: "liga"1, "dlig"1;
+    -o-font-feature-settings: "liga"1, "dlig"1;
+    font-feature-settings: "liga"1, "dlig"1;
+}
+
+/*------------------------------------------
+// User style start
+// change
+----------------------------------------- */
+
+.general-button  {
+    border-radius: 0px;
+    background-color: #4f0021;
+}
+
+.general-button:before  {
+    border-radius: 0px;
+    border-bottom: 0px solid rgba(73,0,30, 0);
+    background-color: rgba(73,0,30, 0);
+}
+
+.button-content  {
+    border-radius: 0px 0px 0px 0px;
+    padding: 6px 9.5px;
+    box-shadow: 0px 0px 0px 0px rgba(73,0,30, 0);
+    color: #ffffff;
+}
+
+.button-text  {
+    padding: 0px 9.5px;
+    line-height: 1.3em;
+    font-size: 27px;
+}
+
+.icon-font  {
+    padding: 0px 9.5px;
+    font-size: 36px;
+}
+
+/*----------------- at hover -----------------*/
+
+.general-button:hover  {
+    top: -3px;
+    transition: all 30ms;
+    -moz-transition: all 30ms;
+    -webkit-transition: all 30ms;
+    -o-transition: all 30ms;
+    background-color: #5e0027;
+}
+
+.general-button:hover:before  {
+    border-bottom: 3px solid rgba(73,0,30, 0);
+    transition: all 30ms;
+    -moz-transition: all 30ms;
+    -webkit-transition: all 30ms;
+    -o-transition: all 30ms;
+}
+
+.general-button:hover .button-content  {
+    box-shadow: 0px 3px 0px 0px rgba(73,0,30, 1);
+    transition: all 30ms;
+    -moz-transition: all 30ms;
+    -webkit-transition: all 30ms;
+    -o-transition: all 30ms;
+}
+
+/*----------------- at active -----------------*/
+
+.general-button:active  {
+    background-color: #350016;
+    box-shadow: 0px 1.6px 0px 0px rgba(48,0,20, 1) inset;
+}
+
+.general-button:active:before  {
+    top: -3px;
+    padding-bottom: 3px;
+    border-bottom: 0px solid rgba(73,0,30, 0);
+}
+
+.general-button:active .button-content  {
+    box-shadow: 0px 0px 0px 0px rgba(73,0,30, 0);
+}
+
+/*------------------------------------------
+// User style end
+----------------------------------------- */
+
+/*------------------------------------------
+// Core style start
+// not change
+----------------------------------------- */
+
+.general-button  {
+    display: -moz-inline-box;
+    display: inline-block;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;transition: all 0ms;
+    -moz-transition: all 0ms;
+    -webkit-transition: all 0ms;
+    -o-transition: all 0ms;position: relative;
+    top: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.general-button:before  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.button-content  {
+    display: table;
+    transition: all 0ms;
+    -moz-transition: all 0ms;
+    -webkit-transition: all 0ms;
+    -o-transition: all 0ms;
+}
+
+.button-text  {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.icon-font  {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*----------------- at hover -----------------*/
+
+.general-button:hover  {
+    transition-timing-function: ease-in-out;
+}
+
+.general-button:hover:before  {
+    transition-timing-function: ease-in-out;
+}
+
+.general-button:hover .button-content  {
+    transition-timing-function: ease-in-out;
+}
+
+/*----------------- at active -----------------*/
+
+.general-button:active  {
+    top: 0px;
+    transition: all 0ms;
+    -moz-transition: all 0ms;
+    -webkit-transition: all 0ms;
+    -o-transition: all 0ms;
+}
+
+.general-button:active:before  {
+    transition: all 0ms;
+    -moz-transition: all 0ms;
+    -webkit-transition: all 0ms;
+    -o-transition: all 0ms;
+}
+
+.general-button:active .button-content  {
+    transition: all 0ms;
+    -moz-transition: all 0ms;
+    -webkit-transition: all 0ms;
+    -o-transition: all 0ms;
+}
+
+/*------------------------------------------
+// Core style end
+----------------------------------------- */
+
+/*------------------------------------------
+// Touch style start
+----------------------------------------- */
+
+/*----------------- at hover -----------------*/
+
+.touch .general-button:hover  {
+    top: 0px;
+    background-color: #4f0021;
+}
+
+.touch .general-button:hover:before  {
+    border-bottom: 0px solid rgba(73,0,30, 0);
+}
+
+.touch .general-button:hover .button-content  {
+    box-shadow: 0px 0px 0px 0px rgba(73,0,30, 1);
+
+}
+
+/*----------------- at active -----------------*/
+
+.touch .general-button:active  {
+    background-color: #350016;
+    box-shadow: 0px 1.6px 0px 0px rgba(48,0,20, 1) inset;
+}
+
+.touch .general-button:active:before  {
+    top: -3px;
+    padding-bottom: 3px;
+    border-bottom: 0px solid rgba(73,0,30, 0);
+}
+
+.touch .general-button:active .button-content  {
+    box-shadow: 0px 0px 0px 0px rgba(73,0,30, 0);
+}
+
+/*------------------------------------------
+// Touch style end
+----------------------------------------- */
+
+
+
+#menu_countainer {
+	text-align: center
+}
+
+.menu {
+	float: left;
+}
+
+body {
+    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+ite;
+    background-size: cover;
+    background-attachment:fixed;/*背景画像をスクロールさせない*/
+    background-image: url(../img/infoc.jpg);/*背景画像*/
+   /* background-color:hsl(35, 38%, 27%);/*背景色*/
+
+}
+
+.menu {
+	float: left
+}
+
+h1 {
+
+    font-family: 'Josefin Slab', serif;
+    /*text-shadow:
+        -1px -1px #aaaaaa,
+        1px -1px #292929,
+        -1px 1px #292929,
+        1px 1px #292929;*/
+    /*文字に枠線をつける*/
+    color:#ffffff;/*タイトル文字色*/
+	text-align: center;
+	font-size: 7em;
+	/*font-family: Quando;*//*フォント*/
+	letter-spacing: 40px/*文字間隔*/
+}
+
+#wrapper {
+	width: 90%;
+	float: left
+}
+
+#sub {
+    font-size: 27px;
+    /*text-shadow:
+        -1px -1px #000,
+        1px -1px #000,
+        -1px 1px #000,
+        1px 1px #000;*/
+    color:#f4f4f4;/*サブタイトル文字色*/
+	text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    /*フォント*/
+	margin-top: -20px
+}
+
+.cubeconteiner {
+    font-family: 'Kanit', sans-serif;
+    width:840px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+h2 {
+
+    font-family: 'Kanit', sans-serif;
+    /*text-shadow:
+        -1px -1px #000,
+        1px -1px #000,
+        -1px 1px #000,
+        1px 1px #000;*/
+    color:#ffffff;/*メニュー文字色*/
+	/*font-family: Alex Brush;*//*メニューフォント*/
+	font-size: 2.2em;
+	text-align: center
+}
+
+header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#middle {
+	margin-top: 10%;
+	background-image: url(../img/t.jpg);
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right
+}
+
+#content {
+	float: right;
+	background-color: #ffffff;
+	width: 90%%
+}
+
+#left {
+	float: left;
+	width: 10%%;
+	background-color: black
+}
+
+#right {
+	background-color: black;
+	width: 10%;
+	height: 100%;
+	float: right
+}
+
+#footer {
+	width: 100%;
+	clear: both
+}
+
+@import
+	url(http://fonts.googleapis.com/css?family=Droid+Sans:bold+Lobster);
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+/* -------------- THE button -------------- */
+.button {
+	/* text */
+	text-decoration: none;
+	font: 24px/1em 'Droid Sans', sans-serif;
+	font-weight: bold;
+	text-shadow: rgba(255, 255, 255, .5) 0 1px 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	/* layout */
+	padding: .5em .6em .4em .6em;
+	margin: .5em;
+	display: inline-block;
+	position: relative;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* effects */
+	border-top: 1px solid rgba(255, 255, 255, 0.8);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	background-image: -webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255,
+		0)), to(rgba(255, 255, 255, 0.7))),
+		url(http://iwantaneff.in/t/http://iwantaneff.in/t/noise.png);
+	background-image: -moz-radial-gradient(top, ellipse cover, rgba(255, 255, 255, 0.7)
+		0%, rgba(255, 255, 255, 0) 100%),
+		url(http://iwantaneff.in/t/http://iwantaneff.in/t/noise.png);
+	background-image: gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255, 0)),
+		to(rgba(255, 255, 255, 0.7))),
+		url(http://iwantaneff.in/t/http://iwantaneff.in/t/noise.png);
+	-webkit-transition: background .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out;
+	transition: background .2s ease-in-out;
+	/* color */
+	color: hsl(0, 0%, 40%) !important;
+	background-color: hsl(0, 0%, 75%);
+	-webkit-box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+ hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px,
+		/* color border */
+ rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+	-moz-box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+ hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px,
+		/* color border */
+ rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+	box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+ hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px,
+		/* color border */
+ rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+}
+
+/* -------------- button (tag) -------------- */
+button.button {
+	border-left: none;
+	border-right: none;
+}
+
+button.button:hover {
+	cursor: pointer;
+}
+
+/* -------------- icon -------------- */
+.button:before {
+	font: 1.2em/0 'Pictos', sans-serif;
+	content: attr(data-icon);
+	/* gets the icon value from the custom data attribute and puts it infront of the button label */
+	margin-right: 0.4em;
+}
+/* icon only */
+.icon {
+	font-weight: normal;
+	font-style: normal;
+	text-indent: -999em;
+}
+
+.icon:before {
+	margin-right: 0;
+	display: block;
+	height: 0;
+	text-indent: 0px;
+}
+
+/* -------------- colours -------------- */
+.button.pink {
+	color: hsl(340, 86%, 26%) !important;/*ボタン文字色*/
+	background-color: hsl(340, 90%, 28%);/*ボタン背景色*/
+	-webkit-box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+ hsl(340, 70%, 50%) 0 .1em 3px, hsl(340, 80%, 40%) 0 .3em 1px,
+		/* color border */
+ rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+	-moz-box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+ hsl(340, 70%, 50%) 0 .1em 3px, hsl(340, 80%, 40%) 0 .3em 1px,
+		/* color border */
+ rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+	box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.15) 0 -0.1em .3em, /* inner shadow */
+ hsl(340, 70%, 50%) 0 .1em 3px, hsl(340, 80%, 40%) 0 .3em 1px,
+		/* color border */
+ rgba(0, 0, 0, 0.2) 0 .5em 5px; /* drop shadow */
+}
+
+.button:active {
+	background-image: -webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255,
+		0)), to(rgba(255, 255, 255, 0))),
+		url(http://iwantaneff.in/t/noise.png);
+	background-image: -moz-gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255, 0)),
+		to(rgba(255, 255, 255, 0))), url(http://iwantaneff.in/t/noise.png);
+	background-image: gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255, 0)),
+		to(rgba(255, 255, 255, 0))), url(http://iwantaneff.in/t/noise.png);
+	-webkit-box-shadow: inset rgba(255, 255, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.2) 0 -0.1em .3em, /* inner shadow */
+ rgba(0, 0, 0, 0.4) 0 .1em 1px, /* border */
+ rgba(0, 0, 0, 0.2) 0 .2em 6px; /* drop shadow */
+	-moz-box-shadow: inset rgba(255, 255, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.2) 0 -0.1em .3em, /* inner shadow */
+ rgba(0, 0, 0, 0.4) 0 .1em 1px, /* border */
+ rgba(0, 0, 0, 0.2) 0 .2em 6px; /* drop shadow */
+	box-shadow: inset rgba(255, 255, 255, 0.6) 0 0.3em .3em, inset
+		rgba(0, 0, 0, 0.2) 0 -0.1em .3em, /* inner shadow */
+ rgba(0, 0, 0, 0.4) 0 .1em 1px, /* border */
+ rgba(0, 0, 0, 0.2) 0 .2em 6px; /* drop shadow */
+	-webkit-transform: translateY(.2em);
+	-moz-transform: translateY(.2em);
+	transform: translateY(.2em);
+}
+
+.button:focus {
+	outline: none;
+	color: rgba(254, 255, 255, 0.9) !important;
+	text-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+
+/* -------------- Fonts -------------- */
+.serif {
+	font-family: 'Lobster', serif;
+	font-weight: normal;
+}
+
+/* -------------- Sizes -------------- */
+.xs {
+	font-size: 16px;
+}
+
+.xl {
+	font-size: 32px;
+}
+
+/* -------------- Materials -------------- */
+.button.glossy:after, .button.glass:after {
+	content: "";
+	position: absolute;
+	width: 90%;
+	height: 60%;
+	top: 0;
+	left: 5%;
+	-webkit-border-radius: .5em .5em 1em 1em/.5em .5em 2em 2em;
+	-moz-border-radius: .5em .5em 1em 1em/.5em .5em 2em 2em;
+	border-radius: .5em .5em 1em 1em/.5em .5em 2em 2em;
+	background-image: -webkit-gradient(linear, 0% 0, 100% 0, from(rgba(255, 255, 255, .55)),
+		to(rgba(255, 255, 255, .5)), color-stop(.5, rgba(255, 255, 255, 0)),
+		color-stop(.8, rgba(255, 255, 255, 0)));
+	background-image: -moz-linear-gradient(left, rgba(255, 255, 255, .55),
+		rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 80%,
+		rgba(255, 255, 255, .5));
+	background-image: gradient(linear, 0% 0, 100% 0, from(rgba(255, 255, 255, .55)),
+		to(rgba(255, 255, 255, .5)), color-stop(.5, rgba(255, 255, 255, 0)),
+		color-stop(.8, rgba(255, 255, 255, 0)));
+}
+
+.button
+
+
+
+
+.glass
+
+
+
+
+:active
+
+
+
+
+:after
+,
+{
+opacity
+
+
+
+
+:
+
+
+
+
+
+.6
+
+
+
+
+;
+}
+.button.icon.glass:after {
+	height: 75%;
+}
+
+/* -------------- Glass + Transparent -------------- */
+.button.glass {
+	text-shadow: rgba(255, 255, 255, .5) 0 -1px 0, rgba(0, 0, 0, 0.18) 0
+		.18em .15em;
+}
+
+.button.glass:active {
+	text-shadow: rgba(255, 255, 255, .3) 0 1px 0, rgba(0, 0, 0, 0.15) 0
+		.18em .15em;
+}
+
+/* -------------- Shapes -------------- */
+
+/* round */
+.round, .round.glossy:after, .round.glass:after {
+	border-top: none;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+}
+
+/* oval */
+.oval {
+	border-top: none;
+	padding-left: .8em;
+	padding-right: .8em;
+	-webkit-border-radius: 5em/2em;
+	-moz-border-radius: 5em/2em;
+	border-radius: 5em/2em;
+}
+
+.oval.glossy:after, .oval.glass:after {
+	top: 5%;
+	-webkit-border-radius: 5em/2em 2em 1em 1em;
+	-moz-border-radius: 5em/2em 2em 1em 1em;
+	border-radius: 5em/2em 2em 1em 1em;
+}
+
+.oval.icon {
+	padding-left: .8em;
+	padding-right: .8em;
+	-webkit-border-radius: 1.5em/1em;
+	-moz-border-radius: 1.5em/1em;
+	border-radius: 1.5em/1em;
+}
+
+.oval.icon.glossy:after, .oval.icon.glass:after {
+	-webkit-border-radius: 1.5em/1em;
+	-moz-border-radius: 1.5em/1em;
+	border-radius: 1.5em/1em;
+}
+
+/* brackets */
+.brackets, .brackets.glossy:after, .brackets.glass:after {
+	border-top: none;
+	-webkit-border-radius: .5em/1em;
+	-moz-border-radius: .5em/1em;
+	border-radius: .5em/1em;
+}
+
+/* back */
+.back, .back.glossy:after, .back.glass:after {
+	border-top-color: rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 1.6em 1.6em 1em 1em/4em 4em 1em 1em;
+	-moz-border-radius: 1.6em 1.6em 1em 1em/4em 4em 1em 1em;
+	border-radius: 1.6em 1.6em 1em 1em/4em 4em 1em 1em;
+}
+
+.back.glossy:after, .back.glass:after {
+	left: 6%;
+	width: 88%;
+}
+
+/*-----------------------------information button----------------------------------*/
+
+/*--------------------------------------infomation-----------------------------------------------*/
+#container {
+	padding-top: 10px;
+}
+
+.flex-caption {
+	min-width: 400px;
+	width: 100%;
+	padding: 20px 0;
+	color: #ccc;
+	text-align: center;
+}
+
+.flexslider {
+	margin: 0 auto;
+	max-width: 840px;
+}
+/* Browser Resets */
+.flex-container a:active, .flexslider a:active {
+	outline: none;
+}
+
+.slides, .flex-control-nav, .flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/* FlexSlider Necessary Styles
+ *********************************/
+.flexslider .slides>li {
+	display: none;
+} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+	max-width: 100%;
+	display: block;
+}
+
+.flex-pauseplay span {
+	text-transform: capitalize;
+}
+/* Clearfix for the .slides element */
+.slides:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+html[xmlns] .slides {
+	display: block;
+}
+
+* html .slides {
+	height: 1%;
+}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+  * include js that eliminates this class on page load */
+.no-js .slides>li:first-child {
+	display: block;
+}
+/* FlexSlider Default Theme
+ *********************************/
+.flexslider {
+	background: #fff;
+	border: 4px solid #fff;
+	position: relative;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	zoom: 1;
+}
+
+.flexslider .slides {
+	zoom: 1;
+}
+
+.flexslider .slides>li {
+	position: relative;
+}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {
+	zoom: 1;
+	position: relative;
+}
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {
+	background: none;
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,
+		endColorstr=#4C000000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,
+		endColorstr=#4C000000);
+	zoom: 1;
+}
+
+.flex-caption {
+	width: 96%;
+	padding: 2%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .3);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 14px;
+	line-height: 16px;
+}
+/* 鬮ｫ�ｽｶ鬮ｮ�ｽ｣�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｪ鬩搾ｽｵ�ｿｽ�ｽｽ�ｽｺ�ｿｽ�ｽｿ�ｽｽ�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｮ鬮ｫ�ｽｹ�ｿｽ�ｽｽ�ｽｺ�ｿｽ�ｽｿ�ｽｽ�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽ｡鬩搾ｽｵ�ｿｽ�ｽｽ�ｽｺ�ｿｽ�ｽｿ�ｽｽ�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｸ鬮ｯ�ｽｷ魄�ｽｹ闔�繧会ｽｫ蜑ｰ縺費ｿｽ�ｽｽ�ｽｸ�ｿｽ�ｽｽ�ｽｺ�ｿｽ�ｽｿ�ｽｽ�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｮ鬩幢ｽ｢隴惹ｼ夲ｽｽ�ｽｿ�ｿｽ�ｽｽ�ｽｫ驛｢譎｢�ｽｽ�ｽｳ鬩幢ｽ｢�ｿｽ�ｽｽ�ｽｧ�ｿｽ�ｽｿ�ｽｽ�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｲ鬩幢ｽ｢隴趣ｽ｢�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｼ鬩幢ｽ｢�ｿｽ�ｽｽ�ｽｧ�ｿｽ�ｽｿ�ｽｽ�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｷ鬩幢ｽ｢隴趣ｽ｢�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｧ鬩幢ｽ｢隴趣ｽ｢�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｳ */
+.flex-direction-nav li a {
+	width: 45px;
+	height: 45px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	cursor: pointer;
+	text-indent: -9999px;
+}
+
+.flex-direction-nav li .next {
+	background-position: -52px 0;
+	right: -5px;
+	background: url(right.png) no-repeat 0 0;
+}
+
+.flex-direction-nav li .prev {
+	left: 5px;
+	background: url(left.png) no-repeat 0 0;
+}
+
+.flex-direction-nav li .disabled {
+	opacity: .3;
+	filter: alpha(opacity = 30);
+	cursor: default;
+}
+/* 鬮｣蛹��ｽｽ�ｽｳ髣包ｽｵ隴趣ｽ｢�ｿｽ�ｽｽ�ｽｿ�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｿ�ｽｽ�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｮ鬩幢ｽ｢隴惹ｼ夲ｽｽ�ｽｿ�ｿｽ�ｽｽ�ｽｫ驛｢譎｢�ｽｽ�ｽｳ鬩幢ｽ｢�ｿｽ�ｽｽ�ｽｧ�ｿｽ�ｽｿ�ｽｽ�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｲ鬩幢ｽ｢隴趣ｽ｢�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｼ鬩幢ｽ｢�ｿｽ�ｽｽ�ｽｧ�ｿｽ�ｽｿ�ｽｽ�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｷ鬩幢ｽ｢隴趣ｽ｢�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｧ鬩幢ｽ｢隴趣ｽ｢�ｿｽ�ｽｽ�ｽｽ�ｿｽ�ｽｽ�ｽｳ */
+.flex-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: -30px;
+	text-align: center;
+}
+
+.flex-control-nav li {
+	margin: 0 0 0 5px;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.flex-control-nav li:first-child {
+	margin: 0;
+}
+
+.flex-control-nav li a {
+	width: 13px;
+	height: 13px;
+	display: block;
+	background: url(right.png) no-repeat 0 0;
+	cursor: pointer;
+	text-indent: -9999px;
+}
+
+.flex-control-nav li a:hover {
+	background-position: 0 -13px;
+}
+
+.flex-control-nav li a.active {
+	background-position: 0 -26px;
+	cursor: default;
+}
+
+/*-----------------------------menu1----------------------------------*/
+.images_area {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.thumb {
+	float: center;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+}
+
+.thumb li {
+	cursor: pointer;
+	float: left;
+	padding: 0;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.thumb li: {
+
+}
+
+.thumb img {
+	height: 130px;
+	padding: 0;
+	vertical-align: bottom;
+	width: 130px;
+}
+
+.top {
+	float: left;
+	height: 295px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 495px;
+	color:	#FFFFFF;
+	display: none;
+}
+
+.top img {
+	height: 295px;
+	width: 495px;
+}
+
+.top img:nth-child(2), .top img:nth-child(3), .top img:nth-child(4),
+	.top img:nth-child(5), .top img:nth-child(6) {
+	display: none;
+}
+
+#menuex {
+    /*text-shadow:
+        -1px -1px #000,
+        1px -1px #000,
+        -1px 1px #000,
+        1px 1px #000;
+    */
+    color:#ffffff;/*メニュー説明文文字色*/
+	text-align: center
+}
+
+.images_area2 {
+	overflow: hidden;
+	width: 1040px;
+	margin-bottom: 1000px
+}
+
+.thumb2 {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	width: 500px;
+}
+
+.thumb2 li {
+	cursor: pointer;
+	float: left;
+	padding: 0;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.thumb2 li:hover {
+	opacity: 0.8
+}
+
+.thumb2 img {
+	height: 145px;
+	padding: 0;
+	vertical-align: bottom;
+	width: 145px;
+}
+
+.top2 {
+	float: left;
+	height: 295px;
+	list-style-type: none;
+	margin: 0;
+	margin-left: 140px;
+	padding: 0;
+	width: 495px;
+	text-align: right
+}
+
+.top2 img {
+	height: 295px;
+	width: 495px;
+}
+
+.top2 img:nth-child(2), .top2 img:nth-child(3), .top2 img:nth-child(4),
+	.top2 img:nth-child(5), .top2 img:nth-child(6) {
+	display: none;
+}
+
+.images_area3 {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1040px;
+}
+
+.thumb3 {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	width: 500px;
+}
+
+.thumb3 li {
+	cursor: pointer;
+	float: left;
+	padding: 0;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.thumb3 li:hover {
+	opacity: 0.8
+}
+
+.thumb3 img {
+	height: 145px;
+	padding: 0;
+	vertical-align: bottom;
+	width: 145px;
+}
+
+.top3 {
+	float: left;
+	height: 295px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 495px;
+}
+
+.top3 img {
+	height: 295px;
+	width: 495px;
+}
+
+.top3 img:nth-child(2), .top3 img:nth-child(3), .top3 img:nth-child(4),
+	.top3 img:nth-child(5), .top3 img:nth-child(6) {
+	display: none;
+}
+
+#course {
+	margin: 0px auto
+}
+
+#coursetxt {
+    /*text-shadow:
+        -1px -1px #000,
+        1px -1px #000,
+        -1px 1px #000,
+        1px 1px #000;
+    */
+    color:aliceblue;/*コース説明文文字色*/
+	text-align: center;
+}
+
+#courselist {
+    color:black;/*コースメニュー文字色*/
+    font-family: cursive;/*コースメニューフォント*/
+    font-style:italic;/*フォントスタイル*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#courselist {
+	border: none;
+	background-color: rgba(255, 255, 255, 0.56);/*コースメニュー背景色*/
+}
+
+caption {
+    font-family: 'Josefin Slab', serif;
+    /*text-shadow:
+        -1px -1px #000,
+        1px -1px #000,
+        -1px 1px #000,
+        1px 1px #000;*/
+	padding-bottom: 10px;
+	/*font-family: Alex Brush;*/
+	font-size: 2em;
+	font-weight: bold;
+    color:white;
+}
+
+th {
+	font-size: 4;
+	padding: 10px 100px
+}
+
+#reservbtn {
+	text-align: right;
+	margin-right: 200px
+}
+
+#about {
+	float: left;
+	margin-right: 50px
+}
+
+#shopinfotable {
+	margin-top: 10px;
+	font-size: 1.2em;
+	margin-left: auto;
+	margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.56);/*ショップインフォ背景色*/
+    border-color: aliceblue;
+}
+
+strong {
+	font-size: 1.2em
+}
+
+#topbtn {
+	text-align: center;
+	margin-top: 100px
+}
+
+.foot {
+	margin-top: 50px
+}
+
+.copy {
+	text-align: center;
+}
+#aboutText {
+    /*text-shadow:
+        -1px -1px #000,
+        1px -1px #000,
+        -1px 1px #000,
+        1px 1px #000;*/
+    color:#ffffff;
+    text-align: center;
+}
+
+
+#cubeMain {
+        width: 100%;
+
+}
+
+
+
+#cubeMainmainv   {
+        width: 80%;
+        border: 1px solid #ffffff;
+        margin: 0 auto;
+    }
+
+#”layer” {
+    position: fixed;
+    z-index: 100000;
+    background: #000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity=0);
+    opacity: 0.0;
+    display: none;
+}
+
+hr {
+    color:black;
+}
+
+
+
+.bline {
+    margin-left:auto;
+    margin-right:auto;
+    border-style: solid ;
+    border-width: 1px;
+
+}
+
+.tableFontSize {
+    TABLE style="font-size : 20px;"
+}
+
+
+
+
