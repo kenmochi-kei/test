@@ -14,6 +14,7 @@
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\internousdev\Desktop\新しいフォルダー\ADATA UFD"/>
 			<item value="C:\Users\internousdev\Desktop\ImportTest"/>
 			<item value="C:\Users\internousdev\Desktop\workspace\workspace-kenmochi"/>
 		</list>
